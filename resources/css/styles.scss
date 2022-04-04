@@ -3,3 +3,7 @@
 @use './base/variables';
 @use './vendors/bootstrap/scss/bootstrap.scss';
 @use './layouts/main-layout.scss';
+@use './components/header';
+@use './components/abouthome';
+@use './components/services';
+@use './components/footer';

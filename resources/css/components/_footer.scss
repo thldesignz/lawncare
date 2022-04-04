@@ -1,0 +1,28 @@
+.footer {
+    .footer_top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer_social {
+            ul {
+                display: flex;
+
+                li {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+
+    .footer_links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_copy {
+        font-size: .8rem;
+        text-align: center;
+    }
+}

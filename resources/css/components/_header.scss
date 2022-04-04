@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/img/lawn.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    .header_overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: .5);
+        position: absolute;
+        z-index: 2;
+    }
+
+    .header_content {
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        h1 {
+            color: #fff;
+            font-size: 3.5rem;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        .btn-outline-primary {
+            color: greenyellow;
+            border-color: greenyellow;
+            text-transform: uppercase;
+            background-color: darkgreen;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+}
