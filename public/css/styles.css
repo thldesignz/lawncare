@@ -11629,3 +11629,7 @@ textarea.form-control-lg {
 .get_quote .quote .btn {
   background: #05492b;
 }
+
+.review {
+  padding: 100px 0;
+}
