@@ -9,11 +9,11 @@
     background-position: center;
     background-size: cover;
     position: relative;
-
+    overflow: hidden;
     .header_overlay {
         width: 100%;
         height: 100%;
-        background-color: rgba($color: #000000, $alpha: .5);
+        background-color: rgba(28, 53, 45, .8);
         position: absolute;
         z-index: 2;
     }
@@ -38,8 +38,8 @@
         }
 
         .btn-outline-primary {
-            color: greenyellow;
-            border-color: greenyellow;
+            color: #fff;
+            border-color: #fff;
             text-transform: uppercase;
             background-color: darkgreen;
             &:hover{

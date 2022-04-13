@@ -1,0 +1,14 @@
+
+    .navbar-light{
+        .navbar-nav{
+            a.nav-link{
+                    // color: rgba(130,190,80, 1);
+                    color: rgba(54, 116, 54, 1);
+                    text-transform: uppercase;
+                    &:hover{
+                        color: rgba(130,190,80, 1);
+                    }
+            }
+        }
+    }
+

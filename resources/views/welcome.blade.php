@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/styles.css') }}">
-        <script src="https://kit.fontawesome.com/d7d48a0d12.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/29332e2c78.js" crossorigin="anonymous"></script>
 
 
     </head>
@@ -59,12 +59,12 @@
         <div class="about_home">
             <div class="container">
                 <div class="row">
-                    <div class="col ">
+                    <div class="col img-section">
                         <div class="image">
                         <img src="/img/owner.jpg" alt="" class="img-fluid">
                     </div>
                     </div>
-                    <div class="col ">
+                    <div class="col home_section_1 ">
                         <h3>Open Since 2001!</h3>
                         <h6>We deliver quality services</h6>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
@@ -72,15 +72,15 @@
                         <a href="#">More about us</a>
 
                     </div>
-                    <div class="col ">
+                    <div class="col home_section_2 ">
                         <h3>Our Benefits</h3>
                         <ul>
-                            <li>Quality Landscaping</li>
-                            <li>100% Satisfaction Guarantee</li>
-                            <li>Highly Professional Members </li>
-                            <li>Deliver Always on Time</li>
-                            <li>best Value Solutions</li>
-                            <li>Professional and Qualified</li>
+                            <li><i class="fas fa-check-circle"></i> Quality Landscaping</li>
+                            <li> <i class="fas fa-check-circle"></i> 100% Satisfaction Guarantee</li>
+                            <li> <i class="fas fa-check-circle"></i> Highly Professional Members </li>
+                            <li> <i class="fas fa-check-circle"></i> Deliver Always on Time</li>
+                            <li> <i class="fas fa-check-circle"></i> best Value Solutions</li>
+                            <li> <i class="fas fa-check-circle"></i> Professional and Qualified</li>
                         </ul>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                             <div class="card-body">
                                 <div class="card-top">
                                     <h5>
-                                        <i class="fa-regular fa-credit-card"></i>
+                                        <i class="fas fa-calculator"></i>
                                       </h5>
                                       <h6>Free Estimates</h6>
                                 </div>
@@ -110,7 +110,7 @@
                             <div class="card-body">
                                 <div class="card-top">
                                     <h5>
-                                        <i class="fa-brands fa-houzz"></i>
+                                        <i class="fas fa-home"></i>
                                       </h5>
                                       <h6>Your Home is Our Business</h6>
                                 </div>
@@ -124,7 +124,7 @@
                             <div class="card-body">
                                 <div class="card-top">
                                     <h5>
-                                        <i class="fa-solid fa-handshake-simple"></i>
+                                        <i class="fas fa-shield-alt"></i>
                                       </h5>
                                       <h6>Dependable Services</h6>
                                 </div>
@@ -138,7 +138,7 @@
                             <div class="card-body">
                                 <div class="card-top">
                                     <h5>
-                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <i class="fas fa-calendar-alt"></i>
                                       </h5>
                                       <h6>Scheduling</h6>
                                 </div>
@@ -151,6 +151,78 @@
                 </div>
             </div>
         </div>
+        <section class="vid">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="vid_overlay"></div>
+                        <div class="vid_bg-vid">
+                            <iframe class="bg-vid" width="560" height="315" src="https://www.youtube.com/embed/JWJI7nU2Dxc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="vid_text">
+                            <h2>With 10+ years of Experience with landscape and gardening </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="get_quote">
+            <div class="container">
+                <div class="row ">
+                    <div class="col top_quote">
+                        <div class="quote_sale">
+                            <div class="left">
+                                <span class="icon"><i class="fas fa-tag"></i></span>
+                                <span class="big">Save Now</span>
+                            </div>
+                            <div class="right">
+                                <span class="small">50% off your <br/> first application</span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="quote">
+                            <h2>get a custom quote</h2>
+
+                    <form>
+                        <div class="row">
+                        <div class="form-group col">
+                            <label for="fnameinput">First Name</label>
+                            <input type="text" name="fname" class="form-control" id="fnameinput" placeholder="first Name">
+                          </div>
+                          <div class="form-group col">
+                            <label for="fnameinput">Last Name</label>
+                            <input type="text" name="fname" class="form-control" id="fnameinput" placeholder="Last Name">
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <label for="emailinput">Email</label>
+                                <input type="email" name="email" class="form-control" id="emailinput" placeholder="name@example.com">
+                              </div>
+                              <div class="form-group col">
+                                  <label for="phoneinput">Phone Number</label>
+                                  <input type="text" name="phone" class="form-control" id="phoneinput" placeholder="555-555-1234">
+                                </div>
+
+                        </div>
+
+
+                          <div class="form-group">
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                          </div>
+                      </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="footer">
             <div class="container">
@@ -161,13 +233,22 @@
                         </div>
                         <div class="footer_social">
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
-                                <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i> </a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i> </a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i> </a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <hr>
+                </div>
+
+            </div>
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
                         <h5>Explore</h5>
@@ -197,19 +278,18 @@
                     </div>
                     </div>
                     <div class="col-lg-3">
-                        <h5>Explore</h5>
+                        <h5>Contact</h5>
                         <div class="footer_links">
-                            <a href="#">link</a>
-                            <a href="#">link</a>
-                            <a href="#">link</a>
-                            <a href="#">link</a>
+                           <li> <i class="fas fa-phone"></i> (513)123-45678</li>
+                           <li> <i class="fas fa-envelope"></i> help@company.com</li>
+                           <li> <i class="fas fa-map-marked-alt"></i> 531 Lane St, Monroe, OH</li>
                     </div>
                     </div>
 
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row footer_bottom">
                 <p class="footer_copy">&copy; <?php $year= date("Y"); echo $year; ?> All rights reserved</p>
             </div>
         </section>
