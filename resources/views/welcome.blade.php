@@ -59,12 +59,12 @@
         <div class="about_home">
             <div class="container">
                 <div class="row">
-                    <div class="col img-section">
+                    <div class="col-md-4 col-sm-12 img-section">
                         <div class="image">
                         <img src="/img/owner.jpg" alt="" class="img-fluid">
                     </div>
                     </div>
-                    <div class="col home_section_1 ">
+                    <div class="col-md-4 col-sm-12  home_section_1 ">
                         <h3>Open Since 2001!</h3>
                         <h6>We deliver quality services</h6>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
@@ -72,7 +72,7 @@
                         <a href="#">More about us</a>
 
                     </div>
-                    <div class="col home_section_2 ">
+                    <div class="col-md-4  col-sm-12  home_section_2 ">
                         <h3>Our Benefits</h3>
                         <ul>
                             <li><i class="fas fa-check-circle"></i> Quality Landscaping</li>
@@ -90,8 +90,8 @@
         <div class="services_home">
             <div class="container">
                 <h1>Why choose us?</h1>
-                <div class="row">
-                    <div class="col">
+                <div class="row ">
+                    <div class="col-md-6 col-lg-6 col-xl-3 col-sm-12 l card-row">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <div class="card-top">
@@ -105,7 +105,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6 col-lg-6  col-xl-3 col-sm-12  card-row">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <div class="card-top">
@@ -119,7 +119,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6 col-lg-6 col-xl-3 col-sm-12  card-row">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <div class="card-top">
@@ -133,7 +133,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6 col-lg-6 col-xl-3 col-sm-12 card-row">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <div class="card-top">
@@ -192,21 +192,21 @@
 
                     <form>
                         <div class="row">
-                        <div class="form-group col">
+                        <div class="form-group col-md-6 col-sm-12">
                             <label for="fnameinput">First Name</label>
                             <input type="text" name="fname" class="form-control" id="fnameinput" placeholder="first Name">
                           </div>
-                          <div class="form-group col">
+                          <div class="form-group col-md-6 col-sm-12">
                             <label for="fnameinput">Last Name</label>
                             <input type="text" name="fname" class="form-control" id="fnameinput" placeholder="Last Name">
                           </div>
                         </div>
                         <div class="row">
-                            <div class="form-group col">
+                            <div class="form-group col-md-6 col-sm-12">
                                 <label for="emailinput">Email</label>
                                 <input type="email" name="email" class="form-control" id="emailinput" placeholder="name@example.com">
                               </div>
-                              <div class="form-group col">
+                              <div class="form-group col-md-6 col-sm-12">
                                   <label for="phoneinput">Phone Number</label>
                                   <input type="text" name="phone" class="form-control" id="phoneinput" placeholder="555-555-1234">
                                 </div>
@@ -251,7 +251,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 footer_mid">
                         <h5>Explore</h5>
                         <div class="footer_links">
                             <a href="#">link</a>
@@ -294,6 +294,9 @@
                 <p class="footer_copy">&copy; <?php $year= date("Y"); echo $year; ?> All rights reserved</p>
             </div>
         </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     </body>
 </html>
