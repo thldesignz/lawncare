@@ -1,0 +1,15 @@
+.cat{
+    padding: 100px 0;
+    h1{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .catsec{
+        img{
+            object-fit: cover;
+            object-position: center;
+            height: 277px;
+            width: 100%;
+        }
+    }
+}

@@ -11700,3 +11700,19 @@ textarea.form-control-lg {
 .review {
   padding: 100px 0;
 }
+
+.cat {
+  padding: 100px 0;
+}
+.cat h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.cat .catsec img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 277px;
+  width: 100%;
+}
