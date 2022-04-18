@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+@extends('layouts.main')
 
-</body>
-</html>
+@section('content')
+  @include('components.hero')
+  @include('components.aboutHome')
+  @include('components.whyus')
+  @include('components.vid')
+  @include('components.getquote')
+  @include('components.catservices')
+@endsection
