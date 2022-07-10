@@ -17,13 +17,13 @@ Route::get('/', function () {
     return view('pages/home');
 });
 Route::get('/about', function () {
-    return view('welcome');
+    return view('pages/about');
 });
 Route::get('/services', function () {
-    return view('welcome');
+    return view('pages/services');
 });
 Route::get('/quote', function () {
-    return view('welcome');
+    return view('pages/quote');
 });
 //log/register
 Route::get('/login', function () {
@@ -39,4 +39,3 @@ Route::get('/register', function () {
 
 
 
- 

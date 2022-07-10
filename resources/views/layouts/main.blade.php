@@ -20,7 +20,7 @@
                     Berries Lawn Care
                 </div>
                 <div class="header2__menu">
-                    <a class="header2__menu-link header2__menu-link--active" href="#">Home</a>
+                    <a class="header2__menu-link header2__menu-link--active" href="/">Home</a>
                     <a class="header2__menu-link" href="/about">About Us</a>
                     <a class="header2__menu-link" href="/services">Services</a>
                     <a class="header2__menu-link" href="/quote">Get Quote</a>

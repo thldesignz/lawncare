@@ -11802,3 +11802,31 @@ textarea.form-control-lg {
   align-items: center;
   margin-right: 1rem;
 }
+
+.quotePage {
+  padding: 100px 0;
+}
+.quotePage h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  color: #05492b;
+  font-weight: 700;
+}
+.quotePage h3 {
+  text-align: center;
+  font-weight: 300;
+}
+.quotePage form {
+  padding: 50px 50px;
+  background-color: #fbfaf6;
+}
+.quotePage form label {
+  padding-bottom: 10px;
+}
+.quotePage form .f-row {
+  padding-bottom: 10px;
+}
+.quotePage form .btn-primary {
+  background-color: #05492b;
+  margin-top: 20px;
+}
